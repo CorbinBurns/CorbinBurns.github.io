@@ -1,3 +1,11 @@
+//Colours
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
 body{
 	font-family: "Marker Felt","Comic Sans MS", fantasy;
 	color:#003366;
@@ -27,4 +35,14 @@ th {
 	color:#ffffff;
 	background-color:#0000CD;
    }
+button {
+	order-color: $blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+  transition: all 150ms ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+  }
+}
 
