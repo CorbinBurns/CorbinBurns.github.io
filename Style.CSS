@@ -36,9 +36,9 @@ button {
   line-height: 60px;
   font-weight: bold;
   padding: 0 40px;
-  background: blue;
+  background: slamon;
   border: none;
 }
 button:hover {
-  background: lightblue;
+  background: lightsalmon;
 }
