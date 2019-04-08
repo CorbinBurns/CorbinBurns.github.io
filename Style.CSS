@@ -29,6 +29,7 @@ th {
 	background-color:#0000CD;
    }
 
+body {
   padding: 20px;
 }
 button {
@@ -36,7 +37,7 @@ button {
   line-height: 60px;
   font-weight: bold;
   padding: 0 40px;
-  background: slamon;
+  background: salmon;
   border: none;
 }
 button:hover {
